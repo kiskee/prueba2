@@ -39,6 +39,14 @@ nav ul li a{
   text-decoration: none;
 }
 
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+
+
 .imagen-central{
   background-color: #82c3a6;
   width: 100%;
@@ -134,4 +142,47 @@ footer{
 
 #contacto p{
   font-size: 13px;
+}
+
+
+.contenedor {
+	margin: 5px, 5px,5px, 0px ;
+  padding: 0;
+  width: 100%;
+	display: flex;
+	flex-flow: row wrap;
+  justify-content: center;
+  background-color: #d5c75f;
+  }
+
+.contenedor div {
+  box-sizing: border-box;
+  min-height: 200px;
+  min-width: 100px;
+  margin: 5px;
+}
+
+.c1 {
+	width: 30%;
+  filter: blur(10px);
+}
+.c2 {
+	width: 30%;
+  filter: grayscale(100%);
+}
+.c3 {
+	width: 30%;
+  filter: sepia(90%);
+}
+
+.c4 {
+	width: 30%;
+  filter: grayscale(100%);
+}
+.c5 {
+	width: 30%;
+}
+.c6 {
+	width: 30%;
+  filter: grayscale(100%);
 }
