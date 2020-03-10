@@ -1,0 +1,137 @@
+
+body{
+  background-color: #02010a;
+  font-family: 'Dancing Script';
+}
+
+header {
+background-color: #5b7989;
+border-radius: 10px 10px 0px 0px;
+width: 100%;
+margin-bottom: 0px;
+padding-bottom: 0px;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+}
+
+header h1{
+  text-align: left;
+  color:#FFF;
+  text-shadow: 2px 2px #02010a;
+  float: left;
+  margin-left: 5px;
+}
+
+header nav li{
+  color:#FFF;
+  float: right;
+  padding: 7px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 23px;
+  margin-right: 5px;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+.imagen-central{
+  background-color: #82c3a6;
+  width: 100%;
+}
+
+.imagen-central img{
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px #02010a;
+  width: 80%;
+  margin-top: 0px;
+}
+
+
+.imagen-secundaria {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row ;
+  flex-flow:row;
+  background-color: #d5c75f;
+  }
+
+.imagen1,
+.imagen2 {
+  width: 100%;
+}
+
+.imagen1 img{
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px #82c3a6;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    transition: width 1s, height 1s, transform 1s;
+  border: 2px;
+}
+
+.imagen2 img{
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px #82c3a6;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+    transition: transform 2s;
+}
+
+.imagen1 img:hover{
+   transform: rotate(10deg);
+}
+
+.imagen2 img:hover {
+  transform: translate(20px,-5px);
+}
+
+.imagen-secundaria a{
+  font-size: 20px;
+}
+
+.imagen1 a{
+  margin-left: 45%;
+}
+.imagen2 a{
+  margin-left: 45%;
+}
+
+footer{
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  text-align: center;
+}
+
+#contacto,#terminos,#redes-sociales,#derechos{
+  width: 25%;
+}
+#contacto a:link{
+  color: black;
+}
+
+#redes-sociales a:link{
+  color: black;
+}
+#redes-sociales a:visited{
+  color: black;
+}
+ footer h1{
+   font-size: 27px;
+ }
+
+#contacto p{
+  font-size: 13px;
+}
