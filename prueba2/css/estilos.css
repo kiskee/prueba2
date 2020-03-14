@@ -118,9 +118,11 @@ footer{
   border-radius: 0px 0px 10px 10px;
   background-color: #C6d5c5;
   display: flex;
-  flex-flow: row;
+  flex-flow:  row wrap;
   width: 100%;
   text-align: center;
+  display-webkit:flex;
+  webkit-flex-flow:row wrap;
 }
 
 #contacto,#terminos,#redes-sociales,#derechos{
@@ -185,4 +187,29 @@ footer{
 .c6 {
 	width: 30%;
   filter: grayscale(100%);
+}
+
+
+@media (max-width: 900px){
+  header h1{
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  header nav{
+    margin: auto;
+    display: block;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  #contacto{
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  #contacto,#terminos,#redes-sociales,#derechos {
+    width:100%;
 }
